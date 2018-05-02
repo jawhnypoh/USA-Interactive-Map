@@ -18,6 +18,130 @@ path:hover, circle:hover {
   stroke: #A9A9A9 !important;
   cursor: default;
 }
+
+/*
+#AK:hover {
+    fill: #DC4405 !important;
+}
+*/
+
+.legend-div {
+    width: auto;
+    position: absolute;
+    right: 20;
+    bottom: 50;
+    font-size: 10px;
+    max-width: 400px;
+    background: #FFFFFF;
+}
+
+.legend-div h1 {
+    text-align: center;
+}
+
+.cat-container-1, .cat-container-2, .cat-container-3, .cat-container-4 {
+    display: flex;
+    margin: 5px;
+}
+
+
+.default-info {
+    margin-right: 31px;
+}
+
+.green-1-info {
+    margin-right: 18px;
+}
+
+
+/* < 0% */
+.default {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #D3D3D3;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 0% - 50% */
+.green-1 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #99FF33;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 50% - 100% */
+.green-2 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #00BF12;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 100% - 200% */
+.green-3 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #FFCC00;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 200% - 300% */
+.green-4 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #FF9900;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 300% - 600% */
+.green-5 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #CC6600;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 600% - 900% */
+.green-6 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #FF3300;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* 900%+ */
+.green-7 {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #990000;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 #info-box {
   display: none;
   position: absolute;
