@@ -7,8 +7,8 @@
 #us-map{
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 100;
+  left: 20;
   width: 100%;
   height: 100%;
 }
@@ -27,17 +27,17 @@ path:hover, circle:hover {
   cursor: default;
 }
 
-/*
-#AK:hover {
-    fill: #DC4405 !important;
+img {
+    align-items: center;
+    width: 100px;
+    height: 55px;
 }
-*/
 
 .legend-div {
     width: auto;
     position: absolute;
     right: 20;
-    bottom: 50;
+    bottom: 0;
     font-size: 10px;
     max-width: 400px;
     background: #FFFFFF;
