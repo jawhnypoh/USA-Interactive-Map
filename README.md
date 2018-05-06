@@ -19,3 +19,5 @@ This project includes the following features:
     * State's Highest Exports
 * Gradient colors to represent percent change in population of each of the 50 states from 1950 to 2017
 
+## Credits
+A huge shoutout goes to [@WebsiteBeaver](https://github.com/WebsiteBeaver) for his base template of the U.S map. The original repo can be found [here](https://github.com/WebsiteBeaver/interactive-and-responsive-svg-map-of-us-states-capitals)
