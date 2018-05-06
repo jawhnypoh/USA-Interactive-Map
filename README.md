@@ -11,11 +11,11 @@ This is an Interactive Visualization webpage of the map of the United States. Th
 
 ## Features
 This project includes the following features: 
-- Hover over each of the 50 states to find more information including:
--- State Flag
--- State Capital
--- Population in 1950
--- Population in 2017
--- State's Highest Exports
-- Gradient colors to represent percent change in population of each of the 50 states from 1950 to 2017
+* Hover over each of the 50 states to find more information including:
+    * State Flag
+    * State Capital
+    * Population in 1950
+    * Population in 2017 
+    * State's Highest Exports
+* Gradient colors to represent percent change in population of each of the 50 states from 1950 to 2017
 
